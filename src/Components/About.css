@@ -1,0 +1,31 @@
+.about-container {
+  padding: 20px;
+}
+
+.about-section {
+  margin-top: 40px;
+  padding: 40px 0;
+  background-color: #ecf0f1;
+}
+
+.about-section h2 {
+  color: #333;
+}
+
+.key-points {
+  margin-top: 20px;
+}
+
+.key-points h3 {
+  color: #333;
+  font-size: 1.5em;
+}
+
+.key-points ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.key-points li {
+  margin-bottom: 10px;
+}
