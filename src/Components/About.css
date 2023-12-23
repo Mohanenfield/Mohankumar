@@ -1,31 +1,69 @@
+/* About.css */
+
 .about-container {
   padding: 20px;
 }
 
-.about-section {
-  margin-top: 40px;
-  padding: 40px 0;
-  background-color: #ecf0f1;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.about-section h2 {
+h2 {
   color: #333;
+}
+
+p {
+  color: #666;
 }
 
 .key-points {
   margin-top: 20px;
 }
 
-.key-points h3 {
-  color: #333;
-  font-size: 1.5em;
-}
-
-.key-points ul {
+ul {
   list-style-type: none;
   padding: 0;
 }
 
-.key-points li {
+li {
   margin-bottom: 10px;
+}
+
+.facility {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cta-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+  }
 }

@@ -1,5 +1,7 @@
+// About.js
+
 import React from 'react';
-import './About.css'; // Import the CSS file for this component
+import './About.css';
 
 const About = () => {
   return (
@@ -18,30 +20,10 @@ const About = () => {
           <div className="key-points">
             <h3>Key Points About RK Industries</h3>
             <ul>
-              <li>Decades of Experience in Deep Hole Drilling</li>
               <li>State-of-the-Art Technology and Equipment</li>
               <li>Committed to Precision and Quality</li>
               <li>Trusted Partner Across Various Industries</li>
             </ul>
-          </div>
-        </div>
-      </section>
-
-      <section className="team-section">
-        <div className="container">
-          <h2>Meet Our Team</h2>
-          <p>
-            Our dedicated team of professionals brings a wealth of experience and expertise to every project. With a shared commitment to excellence, we work collaboratively to ensure the success of our clients.
-          </p>
-
-          <div className="team-members">
-            {/* Add team member details and images here */}
-            <div className="team-member">
-              <img src="images/team_member_1.jpg" alt="Team Member 1" />
-              <h4>John Doe</h4>
-              <p>Lead Drilling Engineer</p>
-            </div>
-            {/* Add more team members as needed */}
           </div>
         </div>
       </section>
@@ -53,7 +35,7 @@ const About = () => {
             RK Industries is equipped with cutting-edge facilities to ensure the highest standards of precision and efficiency in our deep hole drilling processes. Our modern facilities are designed to meet the diverse needs of our clients across industries.
           </p>
 
-          {/* Add facility details and images here */}
+          {/* Facility 1 */}
           <div className="facility">
             <img src="images/facility_1.jpg" alt="Facility 1" />
             <h4>Drilling Center</h4>
@@ -64,11 +46,25 @@ const About = () => {
       </section>
 
       <section className="cta-section">
-        <div className="container">
-          <h2>Contact RK Industries Today</h2>
-          <p>Discover how RK Industries can elevate your industrial operations. Contact us for inquiries, consultations, or to schedule a visit to our facilities.</p>
-          <button>Contact Us</button>
-        </div>
+      <h2>Contact Us</h2>
+          <div className="contact-details">
+            <div>
+              <h3>Visit Us</h3>
+              <p>No:3, Part 1, Mahathma Gandhi Road, TASS Industrial Estate, Ambattur, Chennai - 600098</p>
+            </div>
+            <div>
+              <h3>GST No</h3>
+              <p>33EEDPM1639J1ZH</p>
+            </div>
+            <div>
+              <h3>Call Us</h3>
+              <p>Contact: 9597460578</p>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p>Email: md.rkindustries@gmail.com</p>
+            </div>
+            </div>
       </section>
     </div>
   );
