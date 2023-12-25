@@ -6,7 +6,7 @@ import './Home.css';
 import image1 from "./images/IMG-20231223-WA0001.jpg";
 import image2 from "./images/IMG-20231223-WA0002.jpg";
 import image3 from "./images/IMG-20231223-WA0003.jpg";
-import image4 from "./images/automative_image.jpg";
+// import image4 from "./images/automative_image.jpg";
 import image5 from "./images/IMG-20231223-WA0004.jpg";
 import image6 from "./images/IMG-20231223-WA0005.jpg";
 import image7 from "./images/IMG-20231223-WA0006.jpg";
@@ -100,6 +100,7 @@ const Home = () => {
           <div className="image-container">
             <img src={aimage1} alt="Automotive Industry 2" />
           </div>
+          
          
         </div>
 

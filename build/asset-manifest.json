@@ -1,29 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.69a80b89.css",
-    "main.js": "/static/js/main.c71ca88c.js",
+    "main.css": "/static/css/main.db6cee3b.css",
+    "main.js": "/static/js/main.9847879d.js",
     "static/js/787.b352e72d.chunk.js": "/static/js/787.b352e72d.chunk.js",
     "static/media/IMG-20231223-WA0007.jpg": "/static/media/IMG-20231223-WA0007.4f0be16fdb3d285760f2.jpg",
-    "static/media/automative_image.jpg": "/static/media/automative_image.fe433b2ece005f216b9b.jpg",
     "static/media/IMG-20231223-WA0004.jpg": "/static/media/IMG-20231223-WA0004.4303e19ba1b6fe170c37.jpg",
+    "static/media/images (19).jpeg": "/static/media/images (19).c1651061557f593ed10f.jpeg",
+    "static/media/images (20).jpeg": "/static/media/images (20).9eb31596ca6ad39812a9.jpeg",
+    "static/media/images (10).jpeg": "/static/media/images (10).797d08bb5979bdd287e3.jpeg",
     "static/media/IMG-20231223-WA0002.jpg": "/static/media/IMG-20231223-WA0002.f668105d6d1cd0369c8c.jpg",
+    "static/media/images (21).jpeg": "/static/media/images (21).721e69795525d275d379.jpeg",
     "static/media/IMG-20231223-WA0006.jpg": "/static/media/IMG-20231223-WA0006.c3a67156d91e8c92cdba.jpg",
     "static/media/IMG-20231223-WA0003.jpg": "/static/media/IMG-20231223-WA0003.fdeaac34c95bc181fc97.jpg",
+    "static/media/plastic-injection-die-mould-500x500.jpg": "/static/media/plastic-injection-die-mould-500x500.408e7b19e4f4974197f6.jpg",
+    "static/media/Stainless-Steel-Deep-Hole-Drilled-Pipe.jpg": "/static/media/Stainless-Steel-Deep-Hole-Drilled-Pipe.406d14c46a8b74273fca.jpg",
     "static/media/IMG-20231223-WA0001.jpg": "/static/media/IMG-20231223-WA0001.a9fe0aad077768b992d9.jpg",
     "static/media/IMG-20231223-WA0005.jpg": "/static/media/IMG-20231223-WA0005.bf4e09c5f7c1d3cc52d6.jpg",
+    "static/media/images (13).jpeg": "/static/media/images (13).8b6910dfef1b9b44a46d.jpeg",
     "static/media/IMG-20231223-WA0008.jpg": "/static/media/IMG-20231223-WA0008.4d10ba68fdbcae12c4c6.jpg",
+    "static/media/images (12).jpeg": "/static/media/images (12).013cdcbc5344c839fd86.jpeg",
+    "static/media/images (18).jpeg": "/static/media/images (18).0002f626f3a40316a248.jpeg",
     "static/media/IMG-20231223-WA0009.jpg": "/static/media/IMG-20231223-WA0009.0dad1e874dd5f0ab6c84.jpg",
+    "static/media/images (9).jpeg": "/static/media/images (9).c4e2ec8048d546561746.jpeg",
+    "static/media/220px-105mm_tank_gun_Rifling.jpg": "/static/media/220px-105mm_tank_gun_Rifling.1300e2ec55308593120e.jpg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.69a80b89.css.map": "/static/css/main.69a80b89.css.map",
-    "main.c71ca88c.js.map": "/static/js/main.c71ca88c.js.map",
+    "main.db6cee3b.css.map": "/static/css/main.db6cee3b.css.map",
+    "main.9847879d.js.map": "/static/js/main.9847879d.js.map",
     "787.b352e72d.chunk.js.map": "/static/js/787.b352e72d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69a80b89.css",
-    "static/js/main.c71ca88c.js"
+    "static/css/main.db6cee3b.css",
+    "static/js/main.9847879d.js"
   ]
 }
