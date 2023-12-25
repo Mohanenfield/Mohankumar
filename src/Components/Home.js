@@ -93,7 +93,7 @@ const Home = () => {
         <div className="industry">
         <h3>Automotive Industry</h3>
           <p>Camshaft, Liebherr Shaft, Rocker Shaft,
-             Input % Output Shaft, etc.</p>
+             Input & Output Shaft, etc.</p>
           <div className="image-container">
             <img src={aimage2} alt="Automotive Industry 1" />
           </div>
@@ -119,7 +119,7 @@ const Home = () => {
         {/* Industry 1 */}
         <div className="industry">
         <h3>Aerospace Industry</h3>
-          <p>Landing Gears, Centre Rod, Push Rod, etc.</p>
+          <p>Landing Gears, Centre Rod, Piston Rod, etc.</p>
           <div className="image-container">
             <img src={aeimage1} alt="Automotive Industry 1" />
           </div>
@@ -154,7 +154,7 @@ const Home = () => {
         </div>
         <div className="industry">
         <h3>Heavy Engineering Industry</h3>
-          <p>Piston red and shafts for heavy Machineries, Forging Rods, etc.</p>
+          <p>Piston rod and shafts for heavy Machineries, Forging Rods, etc.</p>
           <div className="image-container">
             <img src={himage1} alt="Automotive Industry 1" />
           </div>
