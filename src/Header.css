@@ -1,41 +1,50 @@
+/* Header.css */
+
 .header-container {
-    background-color: #ffffff; /* White background */
-    padding: 15px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f8f8; /* Whitish background */
+  color: #333; /* Dark text color */
+}
+
+.logo a {
+  color: #e60000; /* Red color for RK Industries */
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  color: #555; /* Dark color for other links */
+  text-decoration: none;
+}
+.industry img {
+  width: 100%; /* Adjust as needed */
+  border-radius: 8px; /* Add styling as needed */
+}
+/* Media Query for Responsive Design */
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #333333; /* Dark gray text color */
-  }
-  
+
   .nav-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+    margin-top: 1rem;
   }
-  
-  .nav-links li {
-    margin-right: 15px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #333333; /* Dark gray text color */
-    font-weight: bold;
-    font-size: 1.2em;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  .nav-links a:hover {
-    color: #008cba; /* Blue color on hover */
-  }
-  .industry img {
-    width: 100%; /* Adjust as needed */
-    border-radius: 8px; /* Add styling as needed */
-  }
-    
+}
