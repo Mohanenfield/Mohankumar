@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="about-container">
       <section className="about-section">
-        <div className="container">
+        <div className="i-container">
           <h2>About RK Industries</h2>
           <p>
             RK Industries is a leading provider of precision deep hole drilling services, dedicated to delivering excellence in every project. With a rich history and a commitment to innovation, we have established ourselves as a trusted partner in various industries.
@@ -29,7 +29,7 @@ const About = () => {
       </section>
 
       <section className="facilities-section">
-        <div className="container">
+        <div className="i-container">
           <h2>Our State-of-the-Art Facilities</h2>
           <p>
             RK Industries is equipped with cutting-edge facilities to ensure the highest standards of precision and efficiency in our deep hole drilling processes. Our modern facilities are designed to meet the diverse needs of our clients across industries.
@@ -37,34 +37,37 @@ const About = () => {
 
           {/* Facility 1 */}
           <div className="facility">
-            <img src="images/facility_1.jpg" alt="Facility 1" />
+            {/* <img src="images/facility_1.jpg" alt="Facility 1" /> */}
             <h4>Drilling Center</h4>
             <p>Equipped with advanced drilling technology.</p>
           </div>
           {/* Add more facilities as needed */}
         </div>
       </section>
+      <br />
 
-      <section className="cta-section">
-      <h2>Contact Us</h2>
+      <section className="contact-section">
+        <div className="i-container">
+          <h2>Contact Us</h2>
           <div className="contact-details">
             <div>
-              <h3>Visit Us</h3>
-              <p>No:3, Part 1, Mahathma Gandhi Road, TASS Industrial Estate, Ambattur, Chennai - 600098</p>
+              <h2 className="contact-key">RK Industries:</h2>
+              <span>No:3, Part 1, Mahathma Gandhi Road, TASS Industrial Estate, Ambattur, Chennai - 600098</span>
             </div>
             <div>
-              <h3>GST No</h3>
-              <p>33EEDPM1639J1ZH</p>
+              <span className="contact-key">GST No:</span>
+              <span>33EEDPM1639J1ZH</span>
             </div>
             <div>
-              <h3>Call Us</h3>
-              <p>Contact: 9597460578</p>
+              <span className="contact-key">Call Us:</span>
+              <span> 9597460578</span>
             </div>
             <div>
-              <h3>Email</h3>
-              <p>Email: md.rkindustries@gmail.com</p>
+              <span className="contact-key">Email:</span>
+              <span>md.rkindustries@gmail.com</span>
             </div>
-            </div>
+          </div>
+        </div>
       </section>
     </div>
   );

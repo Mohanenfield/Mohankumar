@@ -11,7 +11,7 @@ const Contact = () => {
           <h2>Contact Us</h2>
           <div className="new-contact-details">
             <div className="new-contact-item">
-              <h3>Visit Us</h3>
+              <h3>Address</h3>
               <p>No:3, Part 1, Mahathma Gandhi Road, TASS Industrial Estate, Ambattur, Chennai - 600098</p>
             </div>
             <div className="new-contact-item">
