@@ -1,11 +1,15 @@
+// Header.js
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css'; // Import the CSS file for this component
+import logo from './Components/images/Rk_dcss_page-0001-removebg-preview.png'; // Import your logo image
 
 const Header = () => {
   return (
     <nav className="header-container">
       <div className="logo">
+        <img src={logo} alt="Logo" />
         <Link to="/">RK Industries</Link>
       </div>
       <ul className="nav-links">

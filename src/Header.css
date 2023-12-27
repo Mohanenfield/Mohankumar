@@ -37,6 +37,22 @@
   border-radius: 8px; /* Add styling as needed */
 }
 /* Media Query for Responsive Design */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px; /* Set the width of your logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: -5px; /* Optional: Add some space between the logo and text */
+}
+
+.logo a {
+  text-decoration: none;
+  color: #de2f2f; /* Red color for "RK Industries" */
+  font-size: 1.5rem; /* Optional: Adjust font size */
+}
 
 @media (max-width: 768px) {
   .header-container {
